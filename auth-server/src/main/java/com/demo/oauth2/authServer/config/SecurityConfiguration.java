@@ -14,9 +14,6 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 import static java.util.Arrays.asList;
 
-/**
- * Created by Maciej on 2015-10-16.
- */
 @EnableWebSecurity
 @Configuration
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
